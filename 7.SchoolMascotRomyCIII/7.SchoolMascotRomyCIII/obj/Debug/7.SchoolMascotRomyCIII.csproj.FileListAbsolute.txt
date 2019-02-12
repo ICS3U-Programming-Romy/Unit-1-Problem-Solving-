@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\bin\Debug\7.SchoolMascotRomyCIII.exe.config
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\bin\Debug\7.SchoolMascotRomyCIII.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\bin\Debug\7.SchoolMascotRomyCIII.pdb
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\obj\Debug\7.SchoolMascotRomyCIII.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\obj\Debug\_7.SchoolMascotRomyCIII.frmSchoolMascot.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\obj\Debug\_7.SchoolMascotRomyCIII.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\obj\Debug\7.SchoolMascotRomyCIII.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\obj\Debug\7.SchoolMascotRomyCIII.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Chu III, Romy (s243855)\Introduction\7.SchoolMascotRomyCIII\7.SchoolMascotRomyCIII\obj\Debug\7.SchoolMascotRomyCIII.pdb
