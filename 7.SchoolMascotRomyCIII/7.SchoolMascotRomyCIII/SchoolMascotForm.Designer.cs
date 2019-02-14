@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.grbSchoolAndMascot = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblMascot = new System.Windows.Forms.Label();
+            this.lblSchool = new System.Windows.Forms.Label();
             this.mnuSchools = new System.Windows.Forms.MenuStrip();
             this.mniSchoolsList = new System.Windows.Forms.ToolStripMenuItem();
             this.mniImmaculata = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,31 +43,31 @@
             // 
             // grbSchoolAndMascot
             // 
-            this.grbSchoolAndMascot.Controls.Add(this.label2);
-            this.grbSchoolAndMascot.Controls.Add(this.label1);
+            this.grbSchoolAndMascot.Controls.Add(this.lblMascot);
+            this.grbSchoolAndMascot.Controls.Add(this.lblSchool);
             this.grbSchoolAndMascot.Location = new System.Drawing.Point(47, 70);
             this.grbSchoolAndMascot.Name = "grbSchoolAndMascot";
-            this.grbSchoolAndMascot.Size = new System.Drawing.Size(200, 100);
+            this.grbSchoolAndMascot.Size = new System.Drawing.Size(214, 91);
             this.grbSchoolAndMascot.TabIndex = 0;
             this.grbSchoolAndMascot.TabStop = false;
             // 
-            // label1
+            // lblMascot
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 14);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.lblMascot.AutoSize = true;
+            this.lblMascot.Location = new System.Drawing.Point(6, 56);
+            this.lblMascot.Name = "lblMascot";
+            this.lblMascot.Size = new System.Drawing.Size(54, 14);
+            this.lblMascot.TabIndex = 2;
+            this.lblMascot.Text = "Mascot";
             // 
-            // label2
+            // lblSchool
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 56);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 14);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.lblSchool.AutoSize = true;
+            this.lblSchool.Location = new System.Drawing.Point(6, 17);
+            this.lblSchool.Name = "lblSchool";
+            this.lblSchool.Size = new System.Drawing.Size(53, 14);
+            this.lblSchool.TabIndex = 1;
+            this.lblSchool.Text = "School";
             // 
             // mnuSchools
             // 
@@ -95,24 +95,28 @@
             this.mniImmaculata.Name = "mniImmaculata";
             this.mniImmaculata.Size = new System.Drawing.Size(152, 22);
             this.mniImmaculata.Text = "Immaculata";
+            this.mniImmaculata.Click += new System.EventHandler(this.mniImmaculata_Click);
             // 
             // mniStJoseph
             // 
             this.mniStJoseph.Name = "mniStJoseph";
             this.mniStJoseph.Size = new System.Drawing.Size(152, 22);
             this.mniStJoseph.Text = "St. Joseph";
+            this.mniStJoseph.Click += new System.EventHandler(this.mniStJoseph_Click);
             // 
             // mniMotherTeresa
             // 
             this.mniMotherTeresa.Name = "mniMotherTeresa";
             this.mniMotherTeresa.Size = new System.Drawing.Size(152, 22);
             this.mniMotherTeresa.Text = "Mother Teresa";
+            this.mniMotherTeresa.Click += new System.EventHandler(this.mniMotherTeresa_Click);
             // 
             // stMarksToolStripMenuItem
             // 
             this.stMarksToolStripMenuItem.Name = "stMarksToolStripMenuItem";
             this.stMarksToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.stMarksToolStripMenuItem.Text = "St. Mark\'s";
+            this.stMarksToolStripMenuItem.Text = "St. Marks";
+            this.stMarksToolStripMenuItem.Click += new System.EventHandler(this.stMarksToolStripMenuItem_Click);
             // 
             // frmSchoolMascot
             // 
@@ -139,8 +143,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grbSchoolAndMascot;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblMascot;
+        private System.Windows.Forms.Label lblSchool;
         private System.Windows.Forms.MenuStrip mnuSchools;
         private System.Windows.Forms.ToolStripMenuItem mniSchoolsList;
         private System.Windows.Forms.ToolStripMenuItem mniImmaculata;
