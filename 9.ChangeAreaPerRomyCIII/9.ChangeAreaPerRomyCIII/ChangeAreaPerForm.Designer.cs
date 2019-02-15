@@ -88,7 +88,7 @@
             this.txtLength.Name = "txtLength";
             this.txtLength.Size = new System.Drawing.Size(113, 37);
             this.txtLength.TabIndex = 4;
-            this.txtLength.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLength_KeyPress);
+           // this.txtLength.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLength_KeyPress);
             // 
             // mnuStrip
             // 
@@ -122,7 +122,7 @@
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(113, 37);
             this.txtWidth.TabIndex = 6;
-            this.txtWidth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtWidth_KeyPress);
+           // this.txtWidth.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtWidth_KeyPress);
             // 
             // btnCalculate
             // 
