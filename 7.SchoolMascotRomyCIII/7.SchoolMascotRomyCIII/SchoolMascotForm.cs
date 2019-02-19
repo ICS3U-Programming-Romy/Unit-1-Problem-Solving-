@@ -28,24 +28,28 @@ namespace _7.SchoolMascotRomyCIII
 
         private void mniImmaculata_Click(object sender, EventArgs e)
         {
+            //Changes the labels to the respective text
             lblSchool.Text = "Immaculata";
             lblMascot.Text = "Saints";
         }
 
         private void mniStJoseph_Click(object sender, EventArgs e)
         {
+            //Changes the labels to the respective text
             lblSchool.Text = "St. Joseph";
             lblMascot.Text = "Hawks";
         }
 
         private void mniMotherTeresa_Click(object sender, EventArgs e)
         {
+            //Changes the labels to the respective text
             lblSchool.Text = "Mother Teresa";
             lblMascot.Text = "I Dunno";
         }
 
         private void stMarksToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Changes the labels to the respective text
             lblSchool.Text = "St. Marks";
             lblMascot.Text = "Lions";
 

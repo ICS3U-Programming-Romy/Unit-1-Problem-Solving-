@@ -33,6 +33,7 @@ namespace _9.ChangeAreaPerRomyCIII
 
         private void mniExit_Click(object sender, EventArgs e)
         {
+            //Closes the form.
             this.Close();
         }
 
@@ -45,56 +46,17 @@ namespace _9.ChangeAreaPerRomyCIII
             lblArea.Show();
             lblPerimeter.Show();
 
-            //Declares an Int
-            int moveOn = 0;
-            moveOn = 0;
+            //Converts to string
+            length = double.Parse(txtLength.Text);
+            width = double.Parse(txtWidth.Text);
 
-            
-            try //"Try" to check if there are any errors
-            {
-                //Converts to string
-                length = double.Parse(txtLength.Text);
-                width = double.Parse(txtWidth.Text);
+            //Calculations
+            perimeter = (2 * length) + (2 * width);
+            area = length * width;
 
-                //If there are no errors in the code the int moveOn stays at zero, therefore running the rest of the code.
-                //If there ARE errors, catch runs and sets moveOn to 1, therefore preventing the rest of the code to run.
+            //Converts the perimeter and area to a string and changes the text
+            lblPerimeter.Text = "The Perimeter is : " + Convert.ToString(perimeter) + " meters(m)";
+            lblArea.Text = "The Area is : " + Convert.ToString(area) + " meters squared (m^2)";
             }
-
-            catch
-            {
-                lblPerimeter.Text = "Input a number!";
-                lblArea.Text = "";
-                moveOn = 1;
-            }
-
-            if (moveOn == 0)
-            {
-                //Converts to string
-                length = double.Parse(txtLength.Text);
-                width = double.Parse(txtWidth.Text);
-
-                //Calculations
-                perimeter = (2 * length) + (2 * width);
-                area = length * width;
-
-                //Prevents program from crashing when nothing is inputed.
-                if (txtLength.Text == "")
-                {
-                    MessageBox.Show("Yo. Do you mind inputing a a number?");
-                    return;
-                }
-
-                if (txtWidth.Text == "")
-                {
-                    MessageBox.Show("Yo. Do you mind inputing a a number?");
-                    return;
-                }
-
-                //Changes the text
-                lblPerimeter.Text = "The Perimeter is : " + Convert.ToString(perimeter) + " meters(m)";
-                lblArea.Text = "The Area is : " + Convert.ToString(area) + " meters squared (m^2)";
-            }
-
-        }
     }
 }
